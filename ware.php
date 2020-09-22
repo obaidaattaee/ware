@@ -49,7 +49,12 @@ ini_set('display_startup_errors', TRUE);
         echo "<p>"."ware status : " . $warrior->startWare(new Enemy($_GET['enemy_name'] , $_GET['enemy_power'] , $_GET['enemy_energy'] , $_GET['enemy_withdrawal']))  ."</p>";
 
         ?>
+        <form method="get" action="main.php" class="mt-4">
+            <button type="submit" > end ware and back to select another enemy</button>
+        </form>
     </main>
+
+
 
 </div>
 

@@ -46,7 +46,7 @@ $enemys = [$enemy1 , $enemy2 ,$enemy3 ,$enemy4 ];
 
         <?php
           foreach ($enemys as $enemy){
-              echo  '<form method="get" action="http://localhost/frontend/ware/ware.php">';
+              echo  '<form method="get" action="ware.php">';
               echo "<p>".  $enemy->name ."</p>" ;
               echo "<input type='hidden' name='enemy_power' value='$enemy->power'>" ;
               echo "<input type='hidden' name='enemy_energy' value='$enemy->energy'>" ;
